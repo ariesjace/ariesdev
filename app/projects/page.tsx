@@ -10,7 +10,7 @@ import { Input } from "@/components/ui/input";
 import { projects } from "@/lib/data";
 import { cn } from "@/lib/utils";
 
-const CATEGORIES = ["All", "WordPress", "Frontend", "Desktop"];
+const CATEGORIES = ["All", "WordPress", "Websites & Web Apps", "Desktop"];
 
 export default function ProjectsPage() {
   const [search, setSearch] = useState("");

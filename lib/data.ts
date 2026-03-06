@@ -131,7 +131,7 @@ export const projects: Project[] = [
     techStack: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
     githubUrl: "",
     liveUrl: "https://vah.com.ph/home",
-    category: "Frontend",
+    category: "Websites & Web Apps",
     status: "live",
     features: [
       "Server-side rendering",
@@ -150,8 +150,8 @@ export const projects: Project[] = [
     tags: ["Next.js", "In Progress"],
     techStack: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
     githubUrl: "",
-    liveUrl: "https://disruptivesolutionsinc.vercel.app",
-    category: "Frontend",
+    liveUrl: "https://disruptive-solutions-inc.vercel.app",
+    category: "Websites & Web Apps",
     status: "in-progress",
     features: [
       "Next.js App Router",
@@ -171,7 +171,7 @@ export const projects: Project[] = [
     techStack: ["Next.js", "TypeScript", "Firebase", "Tailwind CSS", "Vercel"],
     githubUrl: "",
     liveUrl: "https://ecoshift-website.vercel.app/home",
-    category: "Frontend",
+    category: "Websites & Web Apps",
     status: "in-progress",
     features: [
       "Firebase real-time database",
@@ -179,26 +179,6 @@ export const projects: Project[] = [
       "Product catalog system",
       "Admin content management",
       "Responsive layout",
-    ],
-  },
-  {
-    slug: "disruptive-solutions-dashboard",
-    name: "Disruptive Solutions Dashboard",
-    shortDescription: "Internal operations dashboard for Disruptive Solutions Inc — in development.",
-    longDescription:
-      "An internal admin and operations dashboard built for Disruptive Solutions Inc. Provides business analytics, client management, and operational tools. Currently in active development.",
-    tags: ["Next.js", "Dashboard", "In Progress"],
-    techStack: ["Next.js", "TypeScript", "Tailwind CSS", "Firebase", "Vercel"],
-    githubUrl: "",
-    liveUrl: "https://disruptive-solutions-inc.vercel.app/dashboard",
-    category: "Frontend",
-    status: "in-progress",
-    features: [
-      "Operations dashboard",
-      "Client management module",
-      "Analytics and reporting",
-      "Role-based access",
-      "Real-time data updates",
     ],
   },
   {
@@ -211,7 +191,7 @@ export const projects: Project[] = [
     techStack: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
     githubUrl: "",
     liveUrl: "https://jariscms.vercel.app",
-    category: "Frontend",
+    category: "Websites & Web Apps",
     status: "live",
     features: [
       "Portfolio content management",
@@ -231,7 +211,7 @@ export const projects: Project[] = [
     techStack: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
     githubUrl: "",
     liveUrl: "https://stash-demo.vercel.app",
-    category: "Frontend",
+    category: "Websites & Web Apps",
     status: "live",
     features: [
       "Savings tracking interface",
@@ -251,7 +231,7 @@ export const projects: Project[] = [
     techStack: ["Next.js", "TypeScript", "Firebase", "Tailwind CSS", "Vercel"],
     githubUrl: "",
     liveUrl: "https://floodwatch-ph.vercel.app/",
-    category: "Frontend",
+    category: "Websites & Web Apps",
     status: "live",
     features: [
       "Real-time flood level monitoring",
