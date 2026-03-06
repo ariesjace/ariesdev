@@ -1,12 +1,10 @@
-import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/card";
 
 export default function AboutCard() {
   return (
-    <Card className="h-full rounded-xl border-transparent shadow-sm hover:border-border hover:shadow-md transition-all duration-200">
-      <CardHeader>
-        <CardTitle>About</CardTitle>
-      </CardHeader>
-      <CardContent>
+    <Card className="rounded-[14px] border-transparent shadow-sm hover:border-border hover:shadow-md transition-all duration-200">
+      <CardContent className="p-5">
+        <h2 className="text-[0.9375rem] font-semibold tracking-tight mb-3">About</h2>
         <div className="space-y-2.5 text-sm text-muted-foreground leading-relaxed">
           <p>I'm a software developer focused on building modern, scalable web applications using JavaScript and Python.</p>
           <p>I create custom systems and high-performance websites that help businesses streamline operations and grow efficiently.</p>
