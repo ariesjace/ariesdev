@@ -80,48 +80,6 @@ export const projects: Project[] = [
       "Responsive design",
     ],
   },
-  {
-    slug: "retropower-wp",
-    name: "Retropower",
-    shortDescription:
-      "Business website for a power solutions company in the Philippines.",
-    longDescription:
-      "A business website for Retropower, a company specializing in power and energy solutions in the Philippines. Built on WordPress with a focus on showcasing services and enabling client inquiries.",
-    tags: ["WordPress", "Business"],
-    techStack: ["WordPress", "PHP", "MySQL", "CSS"],
-    githubUrl: "",
-    liveUrl: "https://retropower.com.ph/",
-    category: "WordPress",
-    status: "live",
-    features: [
-      "Service and product listings",
-      "About and team pages",
-      "Client inquiry forms",
-      "Mobile-responsive layout",
-      "CMS-managed content",
-    ],
-  },
-  {
-    slug: "cut-and-break-wp",
-    name: "Cut & Break",
-    shortDescription:
-      "Website for a concrete cutting and breaking services company.",
-    longDescription:
-      "A professional website for Cut & Break, a Philippine-based company offering concrete cutting, coring, and breaking services. Built on WordPress to highlight their specialized construction services and project portfolio.",
-    tags: ["WordPress", "Construction"],
-    techStack: ["WordPress", "PHP", "MySQL", "CSS"],
-    githubUrl: "",
-    liveUrl: "https://cutandbreak.com.ph/",
-    category: "WordPress",
-    status: "live",
-    features: [
-      "Service showcase pages",
-      "Project gallery",
-      "Client contact forms",
-      "SEO optimization",
-      "Mobile-friendly design",
-    ],
-  },
 
   // ── Next.js / Firebase / Vercel ───────────────────────────────────────────
   {
