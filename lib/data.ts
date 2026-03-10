@@ -37,12 +37,12 @@ export type Certificate = {
 };
 
 export const projects: Project[] = [
-
   // ── WordPress ─────────────────────────────────────────────────────────────
   {
     slug: "disruptive-solutions-wp",
     name: "Disruptive Solutions Inc",
-    shortDescription: "Corporate website for a technology solutions company built on WordPress.",
+    shortDescription:
+      "Corporate website for a technology solutions company built on WordPress.",
     longDescription:
       "A professional corporate website for Disruptive Solutions Inc., a technology company offering IT infrastructure, managed services, and digital transformation consulting. Built with WordPress for easy content management and scalability.",
     tags: ["WordPress", "Corporate"],
@@ -62,7 +62,8 @@ export const projects: Project[] = [
   {
     slug: "ecoshift-corp-wp",
     name: "Ecoshift Corporation",
-    shortDescription: "Company website for an LED lighting and energy solutions provider.",
+    shortDescription:
+      "Company website for an LED lighting and energy solutions provider.",
     longDescription:
       "The official website of Ecoshift Corporation, a leading LED lighting and energy efficiency solutions company in the Philippines. Features product catalogs, project showcases, and corporate information managed through WordPress.",
     tags: ["WordPress", "Corporate"],
@@ -82,7 +83,8 @@ export const projects: Project[] = [
   {
     slug: "retropower-wp",
     name: "Retropower",
-    shortDescription: "Business website for a power solutions company in the Philippines.",
+    shortDescription:
+      "Business website for a power solutions company in the Philippines.",
     longDescription:
       "A business website for Retropower, a company specializing in power and energy solutions in the Philippines. Built on WordPress with a focus on showcasing services and enabling client inquiries.",
     tags: ["WordPress", "Business"],
@@ -102,7 +104,8 @@ export const projects: Project[] = [
   {
     slug: "cut-and-break-wp",
     name: "Cut & Break",
-    shortDescription: "Website for a concrete cutting and breaking services company.",
+    shortDescription:
+      "Website for a concrete cutting and breaking services company.",
     longDescription:
       "A professional website for Cut & Break, a Philippine-based company offering concrete cutting, coring, and breaking services. Built on WordPress to highlight their specialized construction services and project portfolio.",
     tags: ["WordPress", "Construction"],
@@ -131,7 +134,7 @@ export const projects: Project[] = [
     techStack: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
     githubUrl: "",
     liveUrl: "https://vah.com.ph/home",
-    category: "Websites & Web Apps",
+    category: "Frontend",
     status: "live",
     features: [
       "Server-side rendering",
@@ -144,14 +147,15 @@ export const projects: Project[] = [
   {
     slug: "disruptive-solutions-nextjs",
     name: "Disruptive Solutions (Next.js)",
-    shortDescription: "Next.js rebuild of the Disruptive Solutions corporate site — in development.",
+    shortDescription:
+      "Next.js rebuild of the Disruptive Solutions corporate site — in development.",
     longDescription:
       "A full rebuild of the Disruptive Solutions Inc. corporate website using Next.js, replacing the existing WordPress site with a faster, more customizable stack. Currently in active development.",
     tags: ["Next.js", "In Progress"],
     techStack: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
     githubUrl: "",
-    liveUrl: "https://disruptive-solutions-inc.vercel.app",
-    category: "Websites & Web Apps",
+    liveUrl: "https://disruptivesolutionsinc.vercel.app",
+    category: "Frontend",
     status: "in-progress",
     features: [
       "Next.js App Router",
@@ -164,14 +168,15 @@ export const projects: Project[] = [
   {
     slug: "ecoshift-website-nextjs",
     name: "Ecoshift Website (Next.js)",
-    shortDescription: "Next.js rebuild of the Ecoshift corporate website — in development.",
+    shortDescription:
+      "Next.js rebuild of the Ecoshift corporate website — in development.",
     longDescription:
       "A modern rebuild of the Ecoshift Corporation website using Next.js and Firebase, replacing the WordPress site. Designed for better performance, custom features, and scalable architecture. Currently in development.",
     tags: ["Next.js", "Firebase", "In Progress"],
     techStack: ["Next.js", "TypeScript", "Firebase", "Tailwind CSS", "Vercel"],
     githubUrl: "",
     liveUrl: "https://ecoshift-website.vercel.app/home",
-    category: "Websites & Web Apps",
+    category: "Frontend",
     status: "in-progress",
     features: [
       "Firebase real-time database",
@@ -182,16 +187,38 @@ export const projects: Project[] = [
     ],
   },
   {
+    slug: "disruptive-solutions-dashboard",
+    name: "Disruptive Solutions",
+    shortDescription:
+      "Next.js rebuild of the Disruptive Solutions Inc. website — in development.",
+    longDescription:
+      "An internal admin and operations dashboard built for Disruptive Solutions Inc. Provides business analytics, client management, and operational tools. Currently in active development.",
+    tags: ["Next.js", "Firebase", "In Progress"],
+    techStack: ["Next.js", "TypeScript", "Tailwind CSS", "Firebase", "Vercel"],
+    githubUrl: "",
+    liveUrl: "https://disruptive-solutions-inc.vercel.app/dashboard",
+    category: "Frontend",
+    status: "in-progress",
+    features: [
+      "Operations dashboard",
+      "Client management module",
+      "Analytics and reporting",
+      "Role-based access",
+      "Real-time data updates",
+    ],
+  },
+  {
     slug: "jaris-cms",
     name: "JarisCMS",
-    shortDescription: "Custom headless CMS built for managing developer portfolio content.",
+    shortDescription:
+      "Custom headless CMS built for managing developer portfolio content.",
     longDescription:
       "A lightweight headless CMS designed specifically for developer portfolios. Features a clean admin interface for managing projects, experience, and tech stack data with live preview support.",
     tags: ["CMS", "Next.js", "Full Stack"],
     techStack: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
     githubUrl: "",
     liveUrl: "https://jariscms.vercel.app",
-    category: "Websites & Web Apps",
+    category: "Frontend",
     status: "live",
     features: [
       "Portfolio content management",
@@ -204,14 +231,15 @@ export const projects: Project[] = [
   {
     slug: "stash-demo",
     name: "Stash",
-    shortDescription: "Demo application showcasing a modern savings and stash management interface.",
+    shortDescription:
+      "Demo application showcasing a modern savings and stash management interface.",
     longDescription:
       "A demo web application built to showcase a modern savings tracker and stash management interface. Built with Next.js and deployed to Vercel with a clean, minimal UI.",
     tags: ["Next.js", "Finance"],
     techStack: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
     githubUrl: "",
     liveUrl: "https://stash-demo.vercel.app",
-    category: "Websites & Web Apps",
+    category: "Frontend",
     status: "live",
     features: [
       "Savings tracking interface",
@@ -224,14 +252,15 @@ export const projects: Project[] = [
   {
     slug: "floodwatch-ph",
     name: "FloodWatch PH",
-    shortDescription: "Real-time flood monitoring and alert system for the Philippines.",
+    shortDescription:
+      "Real-time flood monitoring and alert system for the Philippines.",
     longDescription:
       "A web application providing real-time flood monitoring and early warning alerts across the Philippines. Aggregates flood sensor data and weather information to help communities stay informed during flood events.",
     tags: ["Next.js", "Public Safety", "Real-time"],
     techStack: ["Next.js", "TypeScript", "Firebase", "Tailwind CSS", "Vercel"],
     githubUrl: "",
     liveUrl: "https://floodwatch-ph.vercel.app/",
-    category: "Websites & Web Apps",
+    category: "Frontend",
     status: "live",
     features: [
       "Real-time flood level monitoring",
@@ -246,7 +275,8 @@ export const projects: Project[] = [
   {
     slug: "yahoo-finance-scraper",
     name: "Yahoo Finance Scraper",
-    shortDescription: "Desktop tool that scrapes and exports financial data from Yahoo Finance.",
+    shortDescription:
+      "Desktop tool that scrapes and exports financial data from Yahoo Finance.",
     longDescription:
       "A Python desktop application that automates the extraction of financial data — stock prices, historical charts, and company fundamentals — from Yahoo Finance. Outputs structured data to CSV or JSON for analysis.",
     tags: ["Python", "Desktop", "Finance"],
@@ -266,7 +296,8 @@ export const projects: Project[] = [
   {
     slug: "quiz-app-java",
     name: "Quiz App",
-    shortDescription: "Desktop quiz application built in Java with score tracking and categories.",
+    shortDescription:
+      "Desktop quiz application built in Java with score tracking and categories.",
     longDescription:
       "A Java desktop quiz application featuring multiple question categories, a timer, score tracking, and a leaderboard. Built as a learning project to practice Java OOP principles and Swing-based UI development.",
     tags: ["Java", "Desktop"],
@@ -288,15 +319,6 @@ export const projects: Project[] = [
 export const experience: Experience[] = [
   {
     id: "1",
-    role: "Full Stack Developer",
-    company: "Ecoshift Corporation",
-    year: "2026",
-    current: true,
-    description:
-      "Leading full-stack development of internal tools and customer-facing platforms. Architecting scalable systems using Next.js, Python, and PostgreSQL while integrating AI capabilities into existing workflows.",
-  },
-  {
-    id: "2",
     role: "Full Stack Intern",
     company: "Ecoshift Corporation",
     year: "2025",
@@ -305,7 +327,7 @@ export const experience: Experience[] = [
       "Built and shipped multiple internal dashboards and automation tools. Contributed to backend API development and optimized database query performance by 40%.",
   },
   {
-    id: "3",
+    id: "2",
     role: "Web Developer",
     company: "Freelancer",
     year: "2024",
@@ -314,7 +336,7 @@ export const experience: Experience[] = [
       "Delivered custom websites and web applications for small to mid-sized businesses. Specialized in React-based frontends integrated with headless CMS solutions.",
   },
   {
-    id: "4",
+    id: "3",
     role: "Java Developer",
     company: "Freelancer",
     year: "2023",
@@ -323,7 +345,7 @@ export const experience: Experience[] = [
       "Developed desktop and backend applications using Java and Spring Boot. Built RESTful APIs and contributed to open-source Java utilities.",
   },
   {
-    id: "5",
+    id: "4",
     role: "Hello World",
     company: "started my programming journey",
     year: "2023",
@@ -334,26 +356,26 @@ export const experience: Experience[] = [
 ];
 
 export const techStack: TechItem[] = [
-  { name: "Next.js",        category: "Frontend" },
-  { name: "React",          category: "Frontend" },
-  { name: "TypeScript",     category: "Frontend" },
-  { name: "Tailwind CSS",   category: "Frontend" },
-  { name: "Framer Motion",  category: "Frontend" },
-  { name: "shadcn/ui",      category: "Frontend" },
-  { name: "Node.js",        category: "Backend"  },
-  { name: "Python",         category: "Backend"  },
-  { name: "FastAPI",        category: "Backend"  },
-  { name: "PostgreSQL",     category: "Backend"  },
-  { name: "Redis",          category: "Backend"  },
-  { name: "Prisma",         category: "Backend"  },
-  { name: "OpenAI API",     category: "AI"       },
-  { name: "LangChain",      category: "AI"       },
-  { name: "Pinecone",       category: "AI"       },
-  { name: "Hugging Face",   category: "AI"       },
-  { name: "Docker",         category: "Tools"    },
-  { name: "Git",            category: "Tools"    },
-  { name: "Vercel",         category: "Tools"    },
-  { name: "GitHub Actions", category: "Tools"    },
+  { name: "Next.js", category: "Frontend" },
+  { name: "React", category: "Frontend" },
+  { name: "TypeScript", category: "Frontend" },
+  { name: "Tailwind CSS", category: "Frontend" },
+  { name: "Framer Motion", category: "Frontend" },
+  { name: "shadcn/ui", category: "Frontend" },
+  { name: "Node.js", category: "Backend" },
+  { name: "Python", category: "Backend" },
+  { name: "FastAPI", category: "Backend" },
+  { name: "PostgreSQL", category: "Backend" },
+  { name: "Redis", category: "Backend" },
+  { name: "Prisma", category: "Backend" },
+  { name: "OpenAI API", category: "AI" },
+  { name: "LangChain", category: "AI" },
+  { name: "Pinecone", category: "AI" },
+  { name: "Hugging Face", category: "AI" },
+  { name: "Docker", category: "Tools" },
+  { name: "Git", category: "Tools" },
+  { name: "Vercel", category: "Tools" },
+  { name: "GitHub Actions", category: "Tools" },
 ];
 
 export const certificates: Certificate[] = [
